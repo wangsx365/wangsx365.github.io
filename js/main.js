@@ -86,7 +86,7 @@ function time() {
 //获取天气
 //每日限量 100 次
 //请前往 https://www.tianqiapi.com/index/doc?version=v6 申请（免费）
-fetch('https://yiketianqi.com/api?unescape=1&version=v6&appid=33596748&appsecret=WOecag7V')
+fetch('https://yiketianqi.com/api?unescape=1&version=v6&appid=33596748&appsecret=WOecag7V&city=合肥')
     .then(response => response.json())
     .then(data => {
         //$('#wea_text').html(data.wea + '&nbsp;' + data.tem_night + '℃' + '&nbsp;~&nbsp;' + data.tem_day + '℃')
@@ -151,7 +151,3 @@ color: rgb(244,167,89);
 var styleContent = `
 color: rgb(30,152,255);
 `
-var title1 = '365Start'
-
-console.log(`%c${title1} %c${title2}
-%c${content}`, styleTitle1, styleTitle2, styleContent)
