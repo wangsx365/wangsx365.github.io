@@ -131,9 +131,9 @@ $(".sou-button").click(function () {
     }
 });
 
-//鼠标中键点击事件
+//鼠标右键点击事件
 $(window).mousedown(function (event) {
-    if (event.button == 1) {
+    if (event.button == 2) {
         $("#time_text").click();
     }
 });
