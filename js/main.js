@@ -1,3 +1,6 @@
+window.oncontextmenu=function(e){
+    e.preventDefault();
+}
 //加载完成后执行
 window.addEventListener('load', function () {
     //载入动画
