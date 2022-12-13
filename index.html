@@ -27,7 +27,7 @@
     </script>
 </head>
 
-<body οncοntextmenu='return false'>
+<body οncοntextmenu=self.event.returnvalue=false>
     <!--加载动画-->
     <div id="loading-box">
         <div class="loading-left-bg"></div>
@@ -45,7 +45,7 @@
         </div>
     </div>
     <!-- 背景图片 -->
-    <div class="bg-all" οncοntextmenu='return false'>
+    <div class="bg-all">
         <img id="bg" onerror="this.classList.add('error');"></img>
         <div class="cover"></div>
     </div>
